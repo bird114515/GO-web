@@ -82,6 +82,15 @@
             text-decoration: underline;
             cursor: pointer;
         }
+        .image-container {
+            display: flex;
+            justify-content: center; /* 可选：让图片在容器内水平居中 */
+            gap: 10px; /* 可选：为图片之间添加间距 */
+        }
+
+        .image-container img {
+            max-width: 45%; /* 可根据实际情况调整图片宽度，确保两张图片能在一行显示 */
+        }
     </style>
 </head>
 
@@ -143,7 +152,7 @@
                 网友们也对卞相壹的竞技实力进行了分析和讨论，探讨他是否有能力在正常比赛中战胜柯洁，以及他在此次事件后的舆论压力下，后续比赛表现会受到怎样的影响。</p>
         </div>
         <p></p>
-        <div>
+        <div class="image-container">
             <img src="情感分析.png" alt="网友讨论情感分析图（个人）">
             <img src="微博官方认证_情感分布.png" alt="网友讨论情感分析图（官方）">
             <p>微博个人/官方认证用户的评论文本情感分布图</p>
