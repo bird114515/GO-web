@@ -87,7 +87,7 @@
 
 <body>
     <header>
-        <h1>本手、妙手，不如举报一手——没有胜者的 29 届世界棋王赛</h1>
+        <h1 style="font-size: 36px; text-align: center;"><strong>本手、妙手，不如举报一手——没有胜者的 29 届世界棋王赛</strong></h1>
     </header>
 
     <section>
@@ -116,9 +116,9 @@
         <h2>网友讨论</h2>
         <div>
             <img src="网友讨论截图.png" alt="相关讨论详情">
-            <img src="柯洁.jpg" alt="柯洁" onclick="openXLSXFile('柯洁_2025-01-22_to_2025-01-24.xlsx')">
-            <img src="LG杯.jpg" alt="LG杯" onclick="openXLSXFile('柯洁_2025-01-22_to_2025-01-24.xlsx')"> 
-            <img src="柯洁不下了.jpg" alt="LG杯" onclick="openXLSXFile('柯洁不下了_2025-01-22_to_2025-01-24.xlsx')"> 
+            <img src="柯洁.png" alt="柯洁" onclick="openXLSXFile('柯洁_2025-01-22_to_2025-01-24.xlsx')">
+            <img src="LG杯.png" alt="LG杯" onclick="openXLSXFile('柯洁_2025-01-22_to_2025-01-24.xlsx')"> 
+            <img src="柯洁不下了.png" alt="LG杯" onclick="openXLSXFile('柯洁不下了_2025-01-22_to_2025-01-24.xlsx')"> 
         </div>
         <div>
             <img src="词云图.png" alt="网友讨论词云图">
@@ -145,9 +145,8 @@
     </footer>
 
      <script>
-        function openCSVFile() {
-            const csvFilePath = '情感分析完整结果.xlsx';
-            window.open(csvFilePath, '_blank');
+        function openXLSXFile(filePath) {
+            window.open(filePath, '_blank');
         }
     </script>
 </body>
